@@ -1,4 +1,40 @@
-# Getting Started with Create React App
+#Comment Section Application
+
+##Post a comment!
+Because this application does not yet support a backend, there is no unique user information. Essentially, one person makes all the comments and replies. Project is more of a proof of concept than anything. 
+
+With that being said, here is the new post text boxes!
+
+![image](https://github.com/DiscoDoggy/reactjs_comment_section/assets/110149934/c6246db1-bfc8-417d-8a98-e1182f08e79d)
+
+##Showing the new comment!
+
+A comment consists of a name, message, reply button, and an upvote downvote system. The voting system is its own component and has its own state so that each message can have its own amount of votes
+
+![image](https://github.com/DiscoDoggy/reactjs_comment_section/assets/110149934/6478bab2-6670-4be4-b324-2766efa25f51)
+
+##Replying to a Comment!
+
+Each comment has a line to its left to indicate the length of the thread and the indentation of the thread.
+
+![image](https://github.com/DiscoDoggy/reactjs_comment_section/assets/110149934/fe5e12fc-5b48-4159-9656-3b894d25d666)
+
+##Reply Comment Box!
+
+When replying to a comment, the reply feature reuses the same component as the new post at the top of the page
+
+![image](https://github.com/DiscoDoggy/reactjs_comment_section/assets/110149934/e0066ff2-4982-4717-b4fd-4e53b2bcee90)
+
+
+
+
+
+
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
