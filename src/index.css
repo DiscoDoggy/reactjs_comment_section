@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.whole-app{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .parent-element{
+   background-color:grey;
+} */
+
+.single-message {
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+    border-left-color:rgb(112, 110, 110);
+    border-left-width:medium;
+    border-left-style:solid;
+    width:75%;
+    margin-top:2rem;
 }
+
+.name-content-vote{
+    display:flex;
+    flex-direction:row;
+    padding:1rem;
+}
+
+.name-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.name{
+    color:blue;
+    font-weight: bold;
+}
+
+.content{
+    font-weight:bolder;
+}
+
+.all-vote{
+    margin-left:auto;
+    margin-right:5rem;
+}
+
+.text-input{
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.new-post-text{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.content-box{
+    margin-top:0.5rem;
+}
+
+.send-button {
+    margin-top:0.5rem;
+}
+
+.reply-button{
+    padding-left:1rem;
+}
+
+.reply{
+    margin-left:20px;
+
+}
+
